@@ -1,0 +1,96 @@
+@import "../../Fonts/typography.css"; 
+
+.scene-1{
+    width:100vw;
+    height:100vh;
+    background:#272626;
+}
+.scene-1 main{
+    width:100vw;
+    height:100vh;
+    background:url('../../Images/figuras-homeAsset.png') no-repeat center center;
+    background-size:cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    --animate-duration: 4s;
+}
+
+.scene-1-dialog{
+    font-family:'BasquiatRegular';
+    margin:0px;
+    color:#F5E2B0;
+    font-size:30px;
+}
+
+.scene-1-dialog#1{
+    --animate-duration: 3s;
+    --animate-delay: 4s;
+}
+.scene-1-dialog#2{
+    --animate-duration: 3s;
+    --animate-delay: 7s;
+}
+
+.scene-1-textblock{
+    text-align: right;
+    margin-top:20px;
+    margin-bottom:50px;
+    margin-right:3%;
+}
+.scene-1-textblock button{
+    font-family:'BasquiatRegular';
+    font-weight:400;
+    font-size:24px;
+    margin-top:20px;
+    background:rgba(0,0,0,0);
+    color:#C2A573;
+    border:0px;
+    padding:10px 5px;
+    cursor:pointer;
+}
+.scene-1-textblock button:focus{
+    outline:none;
+}
+.scene-1-textblock button:active{
+    outline:none;
+}
+
+
+@media(max-height: 760px){
+    .scene-1-dialog{
+        font-size:24px;
+    }
+    .scene-1-textblock{
+        margin-top:20px;
+        margin-bottom:25px;
+    }
+    .scene-1-textblock button{
+        font-size:20px;
+        margin-top:5px;
+    }
+}
+
+@media(max-width: 414px){
+    .scene-1 main{
+        background:url('../../Images/home-mobile-02.png') no-repeat center left;
+        background-size:cover;
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .scene-1-dialog{
+        margin-top:15px;
+        padding:0px 30px;
+        font-size:18px;
+    }
+    .scene-1-textblock{
+        text-align: center;
+        margin-top:100px;
+        margin-bottom:25px;
+    }
+    .scene-1-textblock button{
+        font-size:20px;
+        margin-top:25px;
+    }
+}

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "BasquiatRegular";
+    src:  url('./BasquiatRegular.woff2') format('woff2'),
+          url('./BasquiatRegular.woff') format('woff'),
+          url('./BasquiatRegular.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
