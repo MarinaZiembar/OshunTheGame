@@ -1,9 +1,12 @@
 import React from 'react';
+import './style.css';
 
 function Credits(){
     return(
-        <div>
-            hola
+        <div className="credits">
+            <main >
+
+            </main>
         </div>
     )
 }

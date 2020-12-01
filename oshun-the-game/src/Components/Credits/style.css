@@ -1,0 +1,12 @@
+.credits{
+    width:100vw;
+    height:100vh;
+    background:#110A0B;
+}
+.credits main{
+    position:relative;
+    width:100vw;
+    height:100vh;
+    background:url('../../Images/bosque-creditos.png') no-repeat center center;
+    background-size:cover;
+}

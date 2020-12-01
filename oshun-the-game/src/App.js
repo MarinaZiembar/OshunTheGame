@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import Home from './Components/Home/Home';
 import Scene1 from './Components/Scene1/Scene1';
 import Scene2 from './Components/Scene2/Scene2';
-import Scene3 from './Components/Scene3/Scene3';
 import Credits from './Components/Credits/Credits';
 import './App.css';
 
@@ -21,6 +20,12 @@ function App() {
     setShowScene1(false);
     setShowScene2(true);
   }
+
+
+  const handleSalir = () => {
+    setShowScene2(false);
+    setShowCredits(true);
+  }
   
 
   
@@ -29,7 +34,6 @@ function App() {
   const [showHome, setShowHome] = useState(true);
   const [showScene1, setShowScene1] = useState(false);
   const [showScene2, setShowScene2] = useState(false);
-  const [showScene3, setShowScene3] = useState(false);
   const [showCredits, setShowCredits] = useState(false);
 
 
@@ -47,8 +51,11 @@ function App() {
           handleEntrar={handleEntrar} 
         />
       }
-      {showScene2 && <Scene2/>}
-      {showScene3 && <Scene3/>}
+      {showScene2 && 
+        <Scene2
+          handleSalir={handleSalir}
+        />
+      }
       {showCredits && <Credits/>}
     </div>
   );

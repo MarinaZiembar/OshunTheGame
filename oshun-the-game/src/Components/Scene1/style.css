@@ -13,7 +13,7 @@
     display:flex;
     flex-direction: column;
     justify-content: flex-end;
-    --animate-duration: 4s;
+    --animate-duration: 5s;
 }
 
 .scene-1-dialog{
@@ -23,13 +23,11 @@
     font-size:30px;
 }
 
-.scene-1-dialog#1{
-    --animate-duration: 3s;
-    --animate-delay: 4s;
+#dialog-1{
+    --animate-duration: 4s;
 }
-.scene-1-dialog#2{
-    --animate-duration: 3s;
-    --animate-delay: 7s;
+#dialog-2{
+    --animate-duration: 4s;
 }
 
 .scene-1-textblock{
@@ -39,6 +37,7 @@
     margin-right:3%;
 }
 .scene-1-textblock button{
+    text-align:right;
     font-family:'BasquiatRegular';
     font-weight:400;
     font-size:24px;
