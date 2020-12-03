@@ -6,13 +6,12 @@ import Credits from './Components/Credits/Credits';
 import './App.css';
 
 
+
 function App() {
 
   const handleEmpezar = () => {
     setShowHome(false);
-    setShowScene1(true);
-    localStorage.setItem('userName', name);
-    setTimeout(() => { localStorage.removeItem('userName') }, 1800000);    
+    setShowScene1(true);  
   }
 
   
@@ -35,7 +34,7 @@ function App() {
   const [showScene1, setShowScene1] = useState(false);
   const [showScene2, setShowScene2] = useState(false);
   const [showCredits, setShowCredits] = useState(false);
-
+  
 
   return (
     <div className="App">
@@ -54,6 +53,7 @@ function App() {
       {showScene2 && 
         <Scene2
           handleSalir={handleSalir}
+          name={name}
         />
       }
       {showCredits && <Credits/>}

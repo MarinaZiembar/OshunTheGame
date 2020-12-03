@@ -1,5 +1,4 @@
 
-const name = localStorage.getItem('userName');
 
 export const answersOshunOptions = [
     "-Cómo sabes mi nombre?",
@@ -20,7 +19,7 @@ export const answersOshunOptions = [
 ]
 
 export const questionsOshun = [
-    `Adelante, te estaba esperando ${name}. `,
+    ` `,
     "Mi nombre es Oshun, aunque si estás acá debes ya saber quién soy.",
     "Hay muchas cosas que se, pero carece de importancia realmente",
     "En realidad no tanto.",
@@ -40,12 +39,12 @@ export const questionsOshun = [
     "Comenzamos?",
     "Uf, que cansancio. Esta magia me drena. No te preocupes por la diosa, a veces delira. Conseguiste lo que buscabas?",
     "Que lastima, pero bueno, uno no siempre consigue lo que quiere desafortunadamente.",
-    `Ahora debo pedirte que te vayas, es tarde y estoy agotada. Fue un placer, ${name} `,
+    ` `,
     "Me alegro pues. Ahora si no te molesta, debo descansar. Estoy agotada. Fue un placer, nos vemos pronto."
 ]
 
 export const questionsDiosa = [
-    `Preguntame lo que quieras, ${name} `,
+    ` `,
     "Qué más quieres saber?",
     "...",
     "Escuchame, no tengo mucho tiempo, necesito que me ayudes!",

@@ -15,7 +15,7 @@ import './style.css';
 
 function Scene2(props){
 
-    const {handleSalir} = props;
+    const {handleSalir, name} = props;
 
     useEffect(()=>{
         const audioInside = document.getElementById('scene-2');
@@ -89,7 +89,7 @@ function Scene2(props){
                 <div className="scene-2-textblock-oshun">
                     {question1 &&
                         <div>
-                            <p className="scene-2-dialog animate__animated animate__fadeIn animate__delay-1s">{questionsOshun[0]}</p>
+                            <p className="scene-2-dialog animate__animated animate__fadeIn animate__delay-1s">Adelante, te estaba esperando {name}.</p>
                             <p className="scene-2-dialog animate__animated animate__fadeIn animate__delay-2s">{questionsOshun[1]}</p>
                         </div>
                     }
@@ -144,7 +144,7 @@ function Scene2(props){
                     }
                     {futureQuestion1 &&
                         <div>
-                            <p className="diosa-dialog scene-2-dialog animate__animated animate__fadeIn animate__delay-1s">{questionsDiosa[0]}</p>
+                            <p className="diosa-dialog scene-2-dialog animate__animated animate__fadeIn animate__delay-1s"> Preguntame lo que quieras, {name}. </p>
                         </div>
                     }
                     {futureAnswer1 &&
@@ -181,7 +181,7 @@ function Scene2(props){
                     {question10 &&
                         <div>
                             <p className="scene-2-dialog animate__animated animate__fadeIn animate__delay-1s">{questionsOshun[19]}</p>
-                            <p className="scene-2-dialog animate__animated animate__fadeIn animate__delay-1s">{questionsOshun[20]}</p>
+                            <p className="scene-2-dialog animate__animated animate__fadeIn animate__delay-1s">Ahora debo pedirte que te vayas, es tarde y estoy agotada. Fue un placer, {name}. </p>
                         </div>
                     }
 
@@ -288,13 +288,13 @@ function Scene2(props){
                     {futureQuestion1 &&
                         <div className="answer-user">
                             <input id="futureInput" type="text" value={futureInput} onChange={(e) => setFutureInput(e.target.value)} placeholder="Escribe tu pregunta aquí..." autoComplete="off"/>
-                            <button className="animate__animated animate__fadeIn animate__delay-1s" onClick={() => {setFutureQuestion1(false);setFutureAnswer1(true);setFutureInput(" ");getRandomAnswer(0,5);}}>Preguntar</button>
+                            {futureInput && <button className="animate__animated animate__fadeIn animate__delay-1s" onClick={() => {setFutureQuestion1(false);setFutureAnswer1(true);setFutureInput("");getRandomAnswer(0,5);}}>Preguntar</button>}
                         </div>
                     }
                     {futureAnswer1 &&
                         <div className="answer-user">
                             <input id="futureInput" type="text" value={futureInput} onChange={(e) => setFutureInput(e.target.value)} placeholder="Escribe tu pregunta aquí..." autoComplete="off"/>
-                            <button className="animate__animated animate__fadeIn animate__delay-1s" onClick={() => {setFutureAnswer1(false);setFutureAnswer2(true);setFutureInput(" ");getRandomAnswer(0,5);setOshunShake(true);}}>Preguntar</button>
+                            {futureInput && <button className="animate__animated animate__fadeIn animate__delay-1s" onClick={() => {setFutureAnswer1(false);setFutureAnswer2(true);setFutureInput("");getRandomAnswer(0,5);setOshunShake(true);}}>Preguntar</button>}
                         </div>
                     }
                     {futureAnswer2 &&
