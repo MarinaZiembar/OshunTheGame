@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/OshunTheGame/static/css/main.7fa6b188.chunk.css",
+    "main.js": "/OshunTheGame/static/js/main.a0b2e474.chunk.js",
+    "main.js.map": "/OshunTheGame/static/js/main.a0b2e474.chunk.js.map",
+    "runtime-main.js": "/OshunTheGame/static/js/runtime-main.be711a0b.js",
+    "runtime-main.js.map": "/OshunTheGame/static/js/runtime-main.be711a0b.js.map",
+    "static/js/2.84c6d779.chunk.js": "/OshunTheGame/static/js/2.84c6d779.chunk.js",
+    "static/js/2.84c6d779.chunk.js.map": "/OshunTheGame/static/js/2.84c6d779.chunk.js.map",
+    "static/js/3.a4fd9b83.chunk.js": "/OshunTheGame/static/js/3.a4fd9b83.chunk.js",
+    "static/js/3.a4fd9b83.chunk.js.map": "/OshunTheGame/static/js/3.a4fd9b83.chunk.js.map",
+    "index.html": "/OshunTheGame/index.html",
+    "static/css/main.7fa6b188.chunk.css.map": "/OshunTheGame/static/css/main.7fa6b188.chunk.css.map",
+    "static/js/2.84c6d779.chunk.js.LICENSE.txt": "/OshunTheGame/static/js/2.84c6d779.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/OshunTheGame/static/media/interior-mobile.257609ea.png",
+    "static/media/diosa.728d14d3.png": "/OshunTheGame/static/media/diosa.728d14d3.png",
+    "static/media/inside.2fa0fa14.mp3": "/OshunTheGame/static/media/inside.2fa0fa14.mp3",
+    "static/media/inside.544adfbe.ogg": "/OshunTheGame/static/media/inside.544adfbe.ogg",
+    "static/media/logo-color-01.670c8493.png": "/OshunTheGame/static/media/logo-color-01.670c8493.png",
+    "static/media/outside.31af5c5d.mp3": "/OshunTheGame/static/media/outside.31af5c5d.mp3",
+    "static/media/outside.87532ecb.ogg": "/OshunTheGame/static/media/outside.87532ecb.ogg",
+    "static/media/vieja-mesa.ce94f686.png": "/OshunTheGame/static/media/vieja-mesa.ce94f686.png",
+    "static/media/vieja-vision.ab020726.png": "/OshunTheGame/static/media/vieja-vision.ab020726.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be711a0b.js",
+    "static/js/2.84c6d779.chunk.js",
+    "static/css/main.7fa6b188.chunk.css",
+    "static/js/main.a0b2e474.chunk.js"
+  ]
+}
