@@ -20,7 +20,7 @@
 .oshun-scene-2{
     position:absolute;
     bottom:0;
-    right:30px;
+    right:0px;
     z-index:20;
 }
 
@@ -45,36 +45,51 @@
     width:38vw;
 }
 
+.oshunposeida-scene-2{
+    position:absolute;
+    bottom:10px;
+    right:30px;
+    z-index:10;
+    --animate-duration: 2s;
+}
+
+.oshunposeida-scene-2 img{
+    width:55vw;
+}
+
 
 .scene-2-textblock-user img{
     position:absolute;
     bottom:50px;
-    left:70px;
-    width:38vw;
+    left:50px;
+    width:41vw;
     opacity:0.8;
 }
 
 .scene-2-textblock-user .answer-user{
     position:absolute;
-    bottom:13vh;
+    top:65vh;
     left:5vw;
     text-align:left;
-    width:27vw;
+    width:45vw;
     margin:auto;
     z-index:15;
+}
+.diosa-dialog{
+    color:#CD4C3F !important;
 }
 
 button{
     text-align:left;
     font-family:'BasquiatRegular';
     font-weight:400;
-    font-size:2em;
+    font-size:1.2em;
     margin-top:20px;
-    margin-left:25px;
+    margin-left:10px;
     background:rgba(0,0,0,0);
     color:#110A0B;
     border:0px;
-    width:100%;
+    width:35vw;
     cursor:pointer;
 }
 button:focus{
@@ -93,22 +108,22 @@ button:active{
     top:13vh;
     left:33vw;
     text-align:center;
-    width:27vw;
+    width:25vw;
     font-family:'BasquiatRegular';
     margin:auto;
     color:#F5E2B0;
-    font-size:1em;
+    font-size:1.5em;
 }
 
 .popup-pocima{
     position:fixed;
-    top:17vh;
-    left:35vw;
+    top:10vh;
+    left:30vw;
     z-index:30;
     background:#959595;
     padding:30px;
     height:auto;
-    width:35%;
+    width:40%;
     text-align:center;
     vertical-align: auto;
     --animate-duration: 1.5s;
@@ -126,7 +141,7 @@ box-shadow: 0px 10px 24px 3px rgba(0,0,0,0.75);
     position:relative;
     top:0px;
     left:0px;
-    width:10vw;
+    width:8vw;
     margin:15px 0px;
 }
 .popup-pocima p{
@@ -142,10 +157,55 @@ box-shadow: 0px 10px 24px 3px rgba(0,0,0,0.75);
 }
 
 
-
-@media(max-height: 760px){
-
+#futureInput{
+    width:100%;
+    height:10vh;
+    padding:15px 8px;
+    text-align:left;
+    background:rgba(0,0,0,0);
+    border:0px;
+    border-bottom:1px solid rgba(17, 10, 11, 0.2);
+    color:#110A0B;
+    margin:0px 0px 15px 20px;
+    height:30px;
+    font-family:'Montserrat';
+    font-weight:300;
+    font-size:18px;   
 }
+#futureInput:focus{
+    outline:none;
+}
+#futureInput:active{
+    outline:none;
+}
+
+
+
+
+@media(max-width: 1420px){
+    .scene-2-textblock-user .answer-user{
+        top:60vh;
+    }
+    .scene-2-textblock-oshun{
+        font-size:1em;
+    }
+    button{
+        margin-left:15px;
+        font-size:0.8em !important;
+    }
+    .popup-pocima img{
+        width:5vw;
+    }
+    .popup-pocima p{
+        font-size:0.8em;;
+    }
+    .popup-pocima button{
+        font-size:2em;
+    }
+    .popup-pocima h5{
+        font-size:1.2em;
+    }
+}   
 
 @media(max-width: 414px){
     .scene-2 main{

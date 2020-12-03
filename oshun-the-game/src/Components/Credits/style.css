@@ -10,3 +10,37 @@
     background:url('../../Images/bosque-creditos.png') no-repeat center center;
     background-size:cover;
 }
+.credits main .main-title {
+    text-align: center;
+    position:absolute;
+    top:15vh;
+    left:20vw;
+}
+.credits main .main-title h1,h2{
+    margin:0px;
+    font-size:3em;
+    color:#C2A573;
+    font-family: 'BasquiatRegular';
+}
+.credits main .subtitle {
+    position:absolute;
+    top:45vh;
+    left:23vw;
+}
+.credits main .subtitle p{
+    text-align: center;
+    margin:0px;
+    font-size:1.5em;
+    color:grey;
+    font-family: 'Montserrat';
+}
+.credits main h3{
+    text-align: center;
+    margin:0px;
+    font-size:1.5em;
+    color:#C2A573;
+    font-family: 'BasquiatRegular';
+    position:absolute;
+    bottom:10vh;
+    left:25vw;
+}
