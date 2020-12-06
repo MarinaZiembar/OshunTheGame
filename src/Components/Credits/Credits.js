@@ -1,7 +1,11 @@
 import React, {useEffect} from 'react';
+// import leyenda from '../../Utils/La-Leyenda-de-Oshun.pdf';
 import ambient from '../../Audio/outside.mp3';
 import ambient2 from '../../Audio/outside.ogg';
 import './style.css';
+import './style-mobile.css';
+
+
 
 function Credits(){
 
@@ -26,7 +30,6 @@ function Credits(){
                     <br/>
                     <p><strong>DESARROLLO: </strong>Marina Ziembar</p>
                 </div>
-                
 
                 <h3 className="animate__animated animate__fadeIn animate__delay-1s">TP Final - 2020</h3>
 

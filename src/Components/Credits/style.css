@@ -44,3 +44,29 @@
     bottom:10vh;
     left:25vw;
 }
+
+
+.credits main .descargar-leyenda p{
+    margin:0px;
+    font-size:1em;
+    position:absolute;
+    bottom:15vh;
+    right:20vw;
+    color:#fff;
+    font-family:'Montserrat';
+    font-weight:300;
+}
+.credits main .descargar-leyenda h3{
+    font-family: 'BasquiatRegular';
+    margin:0px;
+    font-size:1.3em;
+    position:absolute;
+    bottom:15vh;
+    right:20vw;
+}
+.credits main .descargar-leyenda a{
+    color:#C2A573;
+}
+.credits main .descargar-leyenda a:hover{
+    color:grey;
+}

@@ -1,0 +1,47 @@
+@import "../../Fonts/typography.css";
+
+@media(max-width: 414px){
+
+    .credits main{
+        background:url('../../Images/bosque-creditos-mobile-01.png') no-repeat center bottom;
+    }
+
+    .credits main .main-title {
+        position:static;
+        padding-top:10vh;
+        display:flex;
+        width:100%;
+        height:auto;
+        justify-content:center;
+        flex-direction:column;
+    }
+
+    .credits main .main-title h1,h2{
+        font-size:2em;
+    }
+
+    .credits main .subtitle {
+        position:static;
+        padding-top:10vh;
+        display:flex;
+        width:100%;
+        height:auto;
+        justify-content:center;
+        flex-direction:column;
+    }
+    .credits main .subtitle p{
+        font-size:1.2em;
+    }
+
+    .credits main h3{
+        font-size:1.5em;
+        position:static;
+        padding-top:45vh;
+        display:flex;
+        width:100%;
+        height:auto;
+        justify-content:center;
+        flex-direction:column;
+    }
+
+}

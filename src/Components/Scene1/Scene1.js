@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import ambient from '../../Audio/outside.mp3';
 import ambient2 from '../../Audio/outside.ogg';
 import './style.css';
+import './style-mobile.css';
 
 
 function Scene1(props){

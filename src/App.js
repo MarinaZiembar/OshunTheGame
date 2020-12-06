@@ -30,9 +30,9 @@ function App() {
   
   const [name, setName] = useState("");
 
-  const [showHome, setShowHome] = useState(true);
+  const [showHome, setShowHome] = useState(false);
   const [showScene1, setShowScene1] = useState(false);
-  const [showScene2, setShowScene2] = useState(false);
+  const [showScene2, setShowScene2] = useState(true);
   const [showCredits, setShowCredits] = useState(false);
   
 

@@ -1,6 +1,8 @@
 import React, {useEffect} from 'react';
 import logo from '../../Images/logo-color-01.png';
 import './style.css';
+import './style-mobile.css';
+
 
 
 function Home(props){

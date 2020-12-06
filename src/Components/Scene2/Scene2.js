@@ -11,6 +11,8 @@ import pocimaFertilidad from '../../Images/pocionfertilidad.png';
 import ambient from '../../Audio/inside.mp3';
 import ambient2 from '../../Audio/inside.ogg';
 import './style.css';
+import './style-mobile.css';
+
 
 
 function Scene2(props){
@@ -288,13 +290,13 @@ function Scene2(props){
                     {futureQuestion1 &&
                         <div className="answer-user">
                             <input id="futureInput" type="text" value={futureInput} onChange={(e) => setFutureInput(e.target.value)} placeholder="Escribe tu pregunta aquí..." autoComplete="off"/>
-                            {futureInput && <button className="animate__animated animate__fadeIn animate__delay-1s" onClick={() => {setFutureQuestion1(false);setFutureAnswer1(true);setFutureInput("");getRandomAnswer(0,5);}}>Preguntar</button>}
+                            {futureInput && <button className="animate__animated animate__fadeIn" onClick={() => {setFutureQuestion1(false);setFutureAnswer1(true);setFutureInput("");getRandomAnswer(0,5);}}>Preguntar</button>}
                         </div>
                     }
                     {futureAnswer1 &&
                         <div className="answer-user">
                             <input id="futureInput" type="text" value={futureInput} onChange={(e) => setFutureInput(e.target.value)} placeholder="Escribe tu pregunta aquí..." autoComplete="off"/>
-                            {futureInput && <button className="animate__animated animate__fadeIn animate__delay-1s" onClick={() => {setFutureAnswer1(false);setFutureAnswer2(true);setFutureInput("");getRandomAnswer(0,5);setOshunShake(true);}}>Preguntar</button>}
+                            {futureInput && <button className="animate__animated animate__fadeIn" onClick={() => {setFutureAnswer1(false);setFutureAnswer2(true);setFutureInput("");getRandomAnswer(0,5);setOshunShake(true);}}>Preguntar</button>}
                         </div>
                     }
                     {futureAnswer2 &&
