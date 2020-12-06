@@ -59,6 +59,7 @@
 
 
 .scene-2-textblock-user img{
+    z-index:20;
     position:absolute;
     bottom:50px;
     left:50px;
@@ -73,7 +74,7 @@
     text-align:left;
     width:45vw;
     margin:auto;
-    z-index:15;
+    z-index:20;
 }
 
 .diosa-dialog{

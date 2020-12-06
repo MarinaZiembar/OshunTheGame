@@ -129,7 +129,41 @@
 }
 
 
+@media(max-height: 634px){
 
+    .oshun-scene-2 img{
+        width:160px;
+        bottom:0;
+        right:-20px;
+    }
+    .diosa-scene-2 img{
+        width:50px;
+        bottom:40px;
+        right:5px;
+    }
+    .scene-2-textblock-oshun{
+        padding-top:1vh;
+    }
+    .scene-2-textblock-user .answer-user{
+        margin:0px 10px 0px 10px;
+    }
+    .popup-pocima{
+        top:5vh;
+        left:5vw;
+        padding:15px;
+        width:80vw;
+        height:auto;
+    }
+    .popup-pocima img{
+        width:20vw;
+    }
+}
+
+@media(max-height: 372px){
+    .oshunposeida-scene-2 img{
+        display:none;
+    } 
+}
 
 
 @keyframes floating-mobile {
