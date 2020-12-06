@@ -59,7 +59,6 @@
 
 
 .scene-2-textblock-user img{
-    z-index:20;
     position:absolute;
     bottom:50px;
     left:50px;
@@ -74,7 +73,6 @@
     text-align:left;
     width:45vw;
     margin:auto;
-    z-index:20;
 }
 
 .diosa-dialog{
@@ -160,7 +158,7 @@ box-shadow: 0px 10px 24px 3px rgba(0,0,0,0.75);
 
 
 #futureInput{
-    width:100%;
+    width:70%;
     height:10vh;
     padding:15px 8px;
     text-align:left;

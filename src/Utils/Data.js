@@ -54,7 +54,7 @@ export const questionsDiosa = [
 
 export const answersDiosaOptions = [
     "-No entiendo! Que pasa? Y mi ultima pregunta?",
-    "-Por dios",
+    "-Por dios!!",
     "-Espera!"
 ]
 

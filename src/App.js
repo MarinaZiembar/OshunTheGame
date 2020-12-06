@@ -32,8 +32,8 @@ function App() {
 
   const [showHome, setShowHome] = useState(false);
   const [showScene1, setShowScene1] = useState(false);
-  const [showScene2, setShowScene2] = useState(true);
-  const [showCredits, setShowCredits] = useState(false);
+  const [showScene2, setShowScene2] = useState(false);
+  const [showCredits, setShowCredits] = useState(true);
   
 
   return (

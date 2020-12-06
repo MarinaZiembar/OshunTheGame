@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-// import leyenda from '../../Utils/La-Leyenda-de-Oshun.pdf';
+import leyenda from '../../Utils/La-Leyenda-de-Oshun.pdf';
 import ambient from '../../Audio/outside.mp3';
 import ambient2 from '../../Audio/outside.ogg';
 import './style.css';
@@ -29,6 +29,11 @@ function Credits(){
                     <p><strong>ARTE Y SONIDO: </strong>Sol Fusco</p>
                     <br/>
                     <p><strong>DESARROLLO: </strong>Marina Ziembar</p>
+                </div>
+
+                <div class="descargar-leyenda">
+                    <h4 className="animate__animated animate__fadeIn animate__delay-1s">Querés saber más?<br/>Descargá la leyenda de Oshun!</h4>
+                    <a href={leyenda} download>Descargar</a>
                 </div>
 
                 <h3 className="animate__animated animate__fadeIn animate__delay-1s">TP Final - 2020</h3>

@@ -152,14 +152,12 @@ function Scene2(props){
                     {futureAnswer1 &&
                         <div>
                             <p className="diosa-dialog scene-2-dialog animate__animated animate__fadeIn animate__delay-1s">{futureAnswers[answer]}</p>
-                            <br/>
                             <p className="diosa-dialog scene-2-dialog animate__animated animate__fadeIn animate__delay-1s">{questionsDiosa[1]}</p>
                         </div>
                     }
                     {futureAnswer2 &&
                         <div>
                             <p className="diosa-dialog scene-2-dialog animate__animated animate__fadeIn animate__delay-1s">{futureAnswers[answer]}</p>
-                            <br/>
                             <p className="diosa-dialog scene-2-dialog animate__animated animate__fadeIn animate__delay-1s">{questionsDiosa[2]}</p>
                             <p className="diosa-dialog scene-2-dialog animate__animated animate__fadeIn animate__delay-1s">{questionsDiosa[3]}</p>
                         </div>

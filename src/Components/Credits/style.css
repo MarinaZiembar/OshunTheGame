@@ -45,28 +45,31 @@
     left:25vw;
 }
 
-
-.credits main .descargar-leyenda p{
+.credits main .descargar-leyenda{
+    text-align: center; 
+}
+.credits main .descargar-leyenda h4{
+    text-align: center;
     margin:0px;
-    font-size:1em;
+    font-size:1.3em;
     position:absolute;
-    bottom:15vh;
-    right:20vw;
+    bottom:12vh;
+    right:3vw;
     color:#fff;
     font-family:'Montserrat';
     font-weight:300;
 }
-.credits main .descargar-leyenda h3{
+.credits main .descargar-leyenda a{
+    text-decoration: none;
     font-family: 'BasquiatRegular';
     margin:0px;
-    font-size:1.3em;
+    font-size:1.5em;
     position:absolute;
-    bottom:15vh;
-    right:20vw;
-}
-.credits main .descargar-leyenda a{
+    bottom:5vh;
+    right:7vw;
     color:#C2A573;
 }
 .credits main .descargar-leyenda a:hover{
     color:grey;
 }
+
