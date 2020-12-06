@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/OshunTheGame/static/css/main.eea1d3ec.chunk.css",
-    "main.js": "/OshunTheGame/static/js/main.bfe36668.chunk.js",
-    "main.js.map": "/OshunTheGame/static/js/main.bfe36668.chunk.js.map",
+    "main.js": "/OshunTheGame/static/js/main.9287cf8f.chunk.js",
+    "main.js.map": "/OshunTheGame/static/js/main.9287cf8f.chunk.js.map",
     "runtime-main.js": "/OshunTheGame/static/js/runtime-main.5ddb33bb.js",
     "runtime-main.js.map": "/OshunTheGame/static/js/runtime-main.5ddb33bb.js.map",
     "static/js/2.84c6d779.chunk.js": "/OshunTheGame/static/js/2.84c6d779.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.5ddb33bb.js",
     "static/js/2.84c6d779.chunk.js",
     "static/css/main.eea1d3ec.chunk.css",
-    "static/js/main.bfe36668.chunk.js"
+    "static/js/main.9287cf8f.chunk.js"
   ]
 }
