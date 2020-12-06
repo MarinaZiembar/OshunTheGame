@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/OshunTheGame/static/css/main.eea1d3ec.chunk.css",
-    "main.js": "/OshunTheGame/static/js/main.9287cf8f.chunk.js",
-    "main.js.map": "/OshunTheGame/static/js/main.9287cf8f.chunk.js.map",
+    "main.css": "/OshunTheGame/static/css/main.b84391f8.chunk.css",
+    "main.js": "/OshunTheGame/static/js/main.bd4a9e23.chunk.js",
+    "main.js.map": "/OshunTheGame/static/js/main.bd4a9e23.chunk.js.map",
     "runtime-main.js": "/OshunTheGame/static/js/runtime-main.5ddb33bb.js",
     "runtime-main.js.map": "/OshunTheGame/static/js/runtime-main.5ddb33bb.js.map",
     "static/js/2.84c6d779.chunk.js": "/OshunTheGame/static/js/2.84c6d779.chunk.js",
@@ -10,9 +10,10 @@
     "static/js/3.5be331d6.chunk.js": "/OshunTheGame/static/js/3.5be331d6.chunk.js",
     "static/js/3.5be331d6.chunk.js.map": "/OshunTheGame/static/js/3.5be331d6.chunk.js.map",
     "index.html": "/OshunTheGame/index.html",
-    "static/css/main.eea1d3ec.chunk.css.map": "/OshunTheGame/static/css/main.eea1d3ec.chunk.css.map",
+    "static/css/main.b84391f8.chunk.css.map": "/OshunTheGame/static/css/main.b84391f8.chunk.css.map",
     "static/js/2.84c6d779.chunk.js.LICENSE.txt": "/OshunTheGame/static/js/2.84c6d779.chunk.js.LICENSE.txt",
     "static/media/style-mobile.css": "/OshunTheGame/static/media/interior-mobile.257609ea.png",
+    "static/media/La-Leyenda-de-Oshun.270f8c64.pdf": "/OshunTheGame/static/media/La-Leyenda-de-Oshun.270f8c64.pdf",
     "static/media/style.css": "/OshunTheGame/static/media/interior-desktop.f764f5c4.png",
     "static/media/diosa.a18ad05e.png": "/OshunTheGame/static/media/diosa.a18ad05e.png",
     "static/media/inside.2fa0fa14.mp3": "/OshunTheGame/static/media/inside.2fa0fa14.mp3",
@@ -26,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.5ddb33bb.js",
     "static/js/2.84c6d779.chunk.js",
-    "static/css/main.eea1d3ec.chunk.css",
-    "static/js/main.9287cf8f.chunk.js"
+    "static/css/main.b84391f8.chunk.css",
+    "static/js/main.bd4a9e23.chunk.js"
   ]
 }
