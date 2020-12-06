@@ -19,7 +19,9 @@
         margin-bottom:25px;
     }
     .scene-1-textblock button{
-        font-size:20px;
-        margin-top:25px;
+        text-align:center;
+        font-size:22px !important;
+        padding-top:25px;
+        margin:auto;
     }
 }
