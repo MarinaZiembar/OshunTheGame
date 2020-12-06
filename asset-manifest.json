@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/OshunTheGame/static/css/main.f8b79786.chunk.css",
-    "main.js": "/OshunTheGame/static/js/main.16de3529.chunk.js",
-    "main.js.map": "/OshunTheGame/static/js/main.16de3529.chunk.js.map",
-    "runtime-main.js": "/OshunTheGame/static/js/runtime-main.be711a0b.js",
-    "runtime-main.js.map": "/OshunTheGame/static/js/runtime-main.be711a0b.js.map",
+    "main.css": "/OshunTheGame/static/css/main.eea1d3ec.chunk.css",
+    "main.js": "/OshunTheGame/static/js/main.bfe36668.chunk.js",
+    "main.js.map": "/OshunTheGame/static/js/main.bfe36668.chunk.js.map",
+    "runtime-main.js": "/OshunTheGame/static/js/runtime-main.5ddb33bb.js",
+    "runtime-main.js.map": "/OshunTheGame/static/js/runtime-main.5ddb33bb.js.map",
     "static/js/2.84c6d779.chunk.js": "/OshunTheGame/static/js/2.84c6d779.chunk.js",
     "static/js/2.84c6d779.chunk.js.map": "/OshunTheGame/static/js/2.84c6d779.chunk.js.map",
-    "static/js/3.a4fd9b83.chunk.js": "/OshunTheGame/static/js/3.a4fd9b83.chunk.js",
-    "static/js/3.a4fd9b83.chunk.js.map": "/OshunTheGame/static/js/3.a4fd9b83.chunk.js.map",
+    "static/js/3.5be331d6.chunk.js": "/OshunTheGame/static/js/3.5be331d6.chunk.js",
+    "static/js/3.5be331d6.chunk.js.map": "/OshunTheGame/static/js/3.5be331d6.chunk.js.map",
     "index.html": "/OshunTheGame/index.html",
-    "static/css/main.f8b79786.chunk.css.map": "/OshunTheGame/static/css/main.f8b79786.chunk.css.map",
+    "static/css/main.eea1d3ec.chunk.css.map": "/OshunTheGame/static/css/main.eea1d3ec.chunk.css.map",
     "static/js/2.84c6d779.chunk.js.LICENSE.txt": "/OshunTheGame/static/js/2.84c6d779.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/OshunTheGame/static/media/interior-mobile.257609ea.png",
-    "static/media/diosa.728d14d3.png": "/OshunTheGame/static/media/diosa.728d14d3.png",
+    "static/media/style-mobile.css": "/OshunTheGame/static/media/interior-mobile.257609ea.png",
+    "static/media/style.css": "/OshunTheGame/static/media/interior-desktop.f764f5c4.png",
+    "static/media/diosa.a18ad05e.png": "/OshunTheGame/static/media/diosa.a18ad05e.png",
     "static/media/inside.2fa0fa14.mp3": "/OshunTheGame/static/media/inside.2fa0fa14.mp3",
     "static/media/inside.544adfbe.ogg": "/OshunTheGame/static/media/inside.544adfbe.ogg",
     "static/media/logo-color-01.670c8493.png": "/OshunTheGame/static/media/logo-color-01.670c8493.png",
     "static/media/outside.31af5c5d.mp3": "/OshunTheGame/static/media/outside.31af5c5d.mp3",
     "static/media/outside.87532ecb.ogg": "/OshunTheGame/static/media/outside.87532ecb.ogg",
-    "static/media/vieja-mesa.ce94f686.png": "/OshunTheGame/static/media/vieja-mesa.ce94f686.png",
+    "static/media/vieja-mesa.eb440042.png": "/OshunTheGame/static/media/vieja-mesa.eb440042.png",
     "static/media/vieja-vision.ab020726.png": "/OshunTheGame/static/media/vieja-vision.ab020726.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.be711a0b.js",
+    "static/js/runtime-main.5ddb33bb.js",
     "static/js/2.84c6d779.chunk.js",
-    "static/css/main.f8b79786.chunk.css",
-    "static/js/main.16de3529.chunk.js"
+    "static/css/main.eea1d3ec.chunk.css",
+    "static/js/main.bfe36668.chunk.js"
   ]
 }
