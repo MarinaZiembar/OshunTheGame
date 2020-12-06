@@ -46,27 +46,25 @@
 }
 
 .credits main .descargar-leyenda{
+    position:absolute;
+    bottom:10vh;
+    right:3vw;
     text-align: center; 
 }
 .credits main .descargar-leyenda h4{
     text-align: center;
     margin:0px;
-    font-size:1.3em;
-    position:absolute;
-    bottom:12vh;
-    right:3vw;
+    font-size:1.2em;
     color:#fff;
     font-family:'Montserrat';
     font-weight:300;
+    padding-bottom:15px;
 }
 .credits main .descargar-leyenda a{
     text-decoration: none;
     font-family: 'BasquiatRegular';
     margin:0px;
     font-size:1.5em;
-    position:absolute;
-    bottom:5vh;
-    right:7vw;
     color:#C2A573;
 }
 .credits main .descargar-leyenda a:hover{

@@ -36,12 +36,60 @@
     .credits main h3{
         font-size:1.5em;
         position:static;
-        padding-top:45vh;
+        padding-top:20vh;
         display:flex;
         width:100%;
         height:auto;
         justify-content:center;
         flex-direction:column;
+    }
+
+    .credits main .descargar-leyenda{
+        position:static;
+        padding-top:10vh;
+        display:flex;
+        width:100%;
+        height:auto;
+        justify-content:center;
+        flex-direction:column;
+    }
+    .credits main .descargar-leyenda h4{
+        position:static;
+        display:flex;
+        font-size:1em;
+        width:100%;
+        height:auto;
+        justify-content:center;
+        flex-direction:column;
+    }
+    .credits main .descargar-leyenda a{
+        position:static;
+        display:flex;
+        font-size:1.2em;
+        width:100%;
+        height:auto;
+        justify-content:center;
+        flex-direction:column;
+    }
+
+}
+
+@media(max-height: 634px){
+
+    .credits main .main-title {
+        padding-top:8vh;
+    }
+
+    .credits main .main-title h1,h2{
+        font-size:1.8em;
+    }
+
+    .credits main .subtitle {
+        padding-top:10vh;
+    }
+
+    .credits main h3{
+        padding-top:15vh;
     }
 
 }
